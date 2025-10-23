@@ -1,0 +1,17 @@
+{
+  "name": "Geospatial & Cadastral MCP Server",
+  "version": "1.0.0",
+  "description": "Unified access to Dutch geospatial, cadastral, and topographical data APIs (PDOK, Kadaster, BAG)",
+  "tools": [
+    "server/tools/search_location.py",
+    "server/tools/get_bag_address.py",
+    "server/tools/get_cadastral_parcel.py",
+    "server/tools/get_3d_building_data.py",
+    "server/tools/get_noise_data.py",
+    "server/tools/get_topography.py",
+    "server/tools/get_administrative_boundaries.py",
+    "server/tools/validate_coordinates.py"
+  ],
+  "resources": [],
+  "prompts": []
+}
